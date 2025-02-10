@@ -1,7 +1,10 @@
 # Ignore virtual environment
-env1/
+env*/
+.devcontainer/
+.git/
 
 # Ignore other common files
 __pycache__/
 *.pyc
 .DS_Store
+*.pkl
